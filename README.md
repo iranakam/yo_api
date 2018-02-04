@@ -22,7 +22,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First of all, please register [Yo](https://dev.justyo.co/) and and get API token.
+
+Then:
+
+```ruby
+require 'yo_api'
+
+# create a client
+client = Yo::Client.new(api_token: '[api_token]')
+
+# say Yo to somebody
+client.yo({ username: 'somebody' })
+
+# say Yo to all subscribers
+client.yoall
+
+# create new Yo accounts
+client.accounts({ username: 'username' })
+
+# checks if a username exists
+client.check_username({ username: 'username' })
+
+# count the number of your subscribers
+client.subscribers_count
+```
 
 ## Development
 
