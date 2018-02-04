@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    yo_api (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.2)
+    method_source (0.8.2)
+    minitest (5.11.3)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (10.5.0)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  minitest (~> 5.0)
+  pry (~> 0.10.4)
+  rake (~> 10.0)
+  yo_api!
+
+BUNDLED WITH
+   1.16.1
